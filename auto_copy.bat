@@ -1,5 +1,4 @@
-@echo off
-REM `@echo off` will not display command which is in this batch file resulting a clean look in the terminal.
+@echo off    & REM `@echo off` will not display command which is in this batch file resulting a clean look in the terminal.
 title Auto Copy
 echo Copying Files....
 echo -----------------

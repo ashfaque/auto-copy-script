@@ -30,4 +30,5 @@ xcopy "C:\source\*.%%e" "E:\destination" /Y /I /Q /EXCLUDE:exclude_list.txt > D:
 echo -----------------
 echo Files Copied Successfully.
 echo Press ENTER to exit...
-set /p input=            & :: used to hold the output screen after execution of the batch file.
+set /p input=
+:: `set /p input=` will wait for user input in the end after execution of the batch file. And thats how we can hold the screen after execution of our batch file.
